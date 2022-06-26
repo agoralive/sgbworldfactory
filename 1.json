@@ -1,7 +1,7 @@
 {
   "name" : "Image name",
   "description" : "Description of image",
-  "image" : "https://github.com/agoralive/sgbworldfactory/blob/main/download.png",
+  "image" : "https://agoralive.github.io/sgbworldfactory/download.png",
   "attributes" : [
     {
       "trait_type": "Strength",
