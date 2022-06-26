@@ -1,0 +1,14 @@
+{
+  "name" : "Image name",
+  "description" : "Description of image",
+  "image" : "https://ipfs.io/ipfs/{CID}/image_1.jpg",
+  "attributes" : [
+    {
+      "trait_type": "Strength",
+      "value": 75
+    }, {
+      "trait_type": "Eye color",
+      "value": "Blue"
+    }
+  ]
+}
