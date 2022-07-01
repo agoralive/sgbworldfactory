@@ -1,14 +1,5 @@
 {
-  "name" : "Image name",
-  "description" : "Description of image",
-  "image" : "https://agoralive.github.io/sgbworldfactory/download.png",
-  "attributes" : [
-    {
-      "trait_type": "Strength",
-      "value": 75
-    }, {
-      "trait_type": "Eye color",
-      "value": "Blue"
-    }
-  ]
+  "name" : "World Factory Ticket",
+  "description" : "Your ticket for our Company",
+  "image" : "ipfs://QmPyeoEssTvZCVZj4oGaG3x6dngvihs9MC3xEo1eBFNC9A/1.png",
 }
