@@ -6,13 +6,13 @@
     "SYMBOL": "SGB",
     "ID": 19
   },
-  "NFT_NAME": "WorldFactoryTicket",
+  "NFT_NAME": "World Factory Ticket",
   "SYMBOL": "WFT",
   "MAX_SUPPLY": 10000,
   "WEI_COST": 2,
   "DISPLAY_COST": 2,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "MARKETPLACE": "Buy on Sparkles",
+  "MARKETPLACE_LINK": "https://frontend.sparklesbeta.com/collection/worldfactoryticket/",
   "SHOW_BACKGROUND": true
 }
