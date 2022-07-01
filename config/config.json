@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xe035470627c7de42b6e5b0ad2faddbae7e8b20ef",
+  "SCAN_LINK": "https://songbird-explorer.flare.network/token/0xe035470627c7de42b6e5b0ad2faddbae7e8b20ef",
+  "NETWORK": {
+    "NAME": "Songbird",
+    "SYMBOL": "SGB",
+    "ID": 19
+  },
+  "NFT_NAME": "WorldFactoryTicket",
+  "SYMBOL": "WFT",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 2,
+  "DISPLAY_COST": 2,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "SHOW_BACKGROUND": true
+}
