@@ -717,12 +717,12 @@ var accounts = await web3.eth.getAccounts();
 account = accounts[0];
 document.getElementById('wallet-address').textContent = account;
 contract = new web3.eth.Contract(ABI, ADDRESS);
-document.getElementById('mint').onclick = async () => {
+document.getElementById('mint2').onclick = async () => {
 var tokenId = Number(document.querySelector("[name=tokenId]").value);
 var amount = Number(document.querySelector("[name=amount]"));
 var mintRate = Number(await contract.methods.mintRate().call());
 var totalAmount = mintRate * amount;
-contract.methods.stakeByIds(tokenId, amount).send({ from: account, value: String(totalAmount)});
+contract.methods.stakeByIds(tokenId).send({ from: account});
 }
 }
 })();
