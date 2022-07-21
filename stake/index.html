@@ -1,0 +1,636 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="og:locale" content="en-US">
+  <meta name="og:site_name" content="BMT">
+  <meta name="og:title" content="BMT">
+  <meta name="og:description" content="">
+  <meta name="og:url" content="index.html">
+  <title></title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style1.css">
+  <link rel="stylesheet" href="./iziToast.min.css">
+
+  <link href="fbootstrap.min.css" rel="stylesheet">
+  <link href="ficofont.min.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link href="assets_main_fy/img/logo.png" rel="icon">
+</head>
+
+<body>
+
+  <div class="bg"></div>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td align="left">
+                <img height="80px" width="80px" src="assets_main_fy/img/busdmachine.png" alt="">
+              </td>
+
+              <td align="right">
+                <button class="header__btn"> <a href="https://t.me/DefiEcoSys2" target="_blank" class=""
+                    data-close="true">Telegram</a> </button>
+                <button class="header__btn"> <a
+                    href="https://bscscan.com/address/0x496f090C20D3353Ff1B0FB93e1A583c14254bb5B" target="_blank"
+                    class="" data-close="true">Contract</a> </button>
+                <button class="header__btn"> <a
+                  href="https://defiecosys.gitbook.io/busdmachine/" target="_blank"
+                  class="" data-close="true">Whitepaper</a> </button>    
+                <button class="header__btn" id="connect-btn" onclick="Connect()">Connect wallet</button>
+
+              </td>
+            </tr>
+            <tr>
+
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <table width="100%" border="0">
+      <tbody>
+        <tr>
+          <td width="320px" align="right" valign="top">
+            <div class="header__prot">Provided by DeFi Ecosystem</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div><br>
+
+
+
+  <main class="main">
+    <div class="container">
+      <div id="launch-time">
+      </div>
+      <div class="main__inner">
+        <div class="main__inner-body">
+          <div class="main__plan-item-i">
+            <div class="main__body-plan">
+              <h2 class="main__plan-title-i">
+                Welcome to World Factory Staking section
+                <span>Use your World Factory Power Token for staking</span>
+
+              </h2><br>
+              <div class="row clearfix">
+
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <h6 class="align-center">
+                    <font color="black">BMT Price</font>
+                  </h6>
+                  <div class="align-center">
+                    <h2>
+                      <font color="black"><span id="token-priceM">0.00</span> BUSD</font>
+                    </h2>
+                  </div>
+                </div>
+
+ 
+
+                <!-- <br><br><br><br> -->
+
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <h6 class="align-center">
+                    <font color="black">Total Invested Users</font>
+                  </h6>
+                  <div class="align-center">
+                    <h2>
+                      <font color="black"><span id="totalUsers">...</span></font>
+                    </h2>
+                  </div>
+                </div>
+                
+                
+                  <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                    <h6 class="align-center">
+                      <font color="black"></font>
+                    </h6>
+                    <div class="align-center">
+                      <h2>
+                        <font color="black"></font>
+                      </h2>
+                    </div>
+                  </div>
+  <br><br><br><br> 
+                
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <h6 class="align-center">
+                    <font color="black">Total Supply</font>
+                  </h6>
+                  <div class="align-center">
+                    <h2>
+                      <font color="black"><span id="limit-supply">...</span></font>
+                    </h2>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <h6 class="align-center">
+                    <font color="black">Circulating Supply</font>
+                  </h6>
+                  <div class="align-center">
+                    <h2>
+                      <font color="black"><span id="total-supply">...</span></font>
+                    </h2>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <h6 class="align-center">
+                    <font color="black">Available Supply</font>
+                  </h6>
+                  <div class="align-center">
+                    <h2>
+                      <font color="black"><span id="available-supply">...</span></font>
+                    </h2>
+                  </div>
+                </div><br><br><br>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <div class="social-links align-center">
+
+                  </div>
+                  <div class="align-center">
+                    <a href=" " target="_blank" class="" data-close="true"> </a>
+                    <a href=" " target="_blank" class="" data-close="true"> </a>
+                  </div>
+                  <div class="align-center">
+                    <a href=" " target="_blank" class="" data-close="true"> </a>
+                  </div>
+                  <div class="align-center">
+                    <a href=" " target="_blank" class="" data-close="true"> </a>
+                  </div>
+                  <div class="align-center">
+                    <a href=" " target="_blank" class="" data-close="true"> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="main__plan-item">
+            <div class="main__body-plan">
+              <h2 class="main__plan-title-a">
+              AIRDROP
+              <span>Airdrop disabled so we can lower the minimum investment</span>
+<!--
+
+                CLAIM AIRDROP
+                <span>Complete the challenges to get airdrop</span>
+                <span>You can receive 100 BMT every 7 days</span>
+              </h2><br>
+
+              <div class="info__plan-box">
+                <div class="main__plan-txt" id="airdrop-c-1">
+                  Have at least ... BUSD in Stake<span>❌</span>
+                </div>
+                <div class="main__plan-txt" id="airdrop-c-2">
+                  7 days since the last airdrop claim<span>❌</span>
+                </div>
+                <div class="main__plan-txt" id="airdrop-c-3">
+                  Have 5 more referrals (from level 1)<span>❌</span>
+                </div>
+              </div><br><br><br><br><br><br>
+
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="left">
+                      <div class="main__plan-txt">Available for Airdrop</div>
+                    </td>
+                    <td rowspan="2" align="right" valign="middle"><button class="main__claim-btn"
+                        id="claimA">CLAIM</button></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="main__plan-txt"><span id="available-airdrop">0</span></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table><br>
+-->
+            </div>
+          </div>
+          <div class="main__plan-item">
+            <div class="main__body-plan">
+              <h2 class="main__plan-title">
+                MINT BMT
+                <span>Mint BMT by staking your BUSD</span>
+                <span>You can stake as many times as you want</span>
+                <span>You cannot unstake this BUSD</span>
+              </h2><br>
+
+
+              <div class="info__plan-box">
+                <div class="main__plan-txt" id="APY_M">
+                  APR<span>...</span>
+                </div>
+                <div class="main__plan-txt" id="user-BUSD-staked">
+                  My Stake<span>...</span>
+                </div>
+                <div class="main__plan-txt" id="total-BUSD-staked">
+                  Total Staked<span>...</span>
+                </div>
+              </div><br><br><br><br><br><br><br>
+
+
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="left">
+                      <div class="main__plan-txt">BMT Minted</div>
+                    </td>
+                    <td rowspan="2" align="right" valign="middle"><button class="main__claim-btn"
+                        id="claimM">CLAIM</button></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="main__plan-txt"><span id="user-unClaimed-M">0.00</span></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+              <!-- ---------------- -->
+
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">
+                      <font color="black">Approve BUSD spend</font>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="input-group">
+                <input type="number" min="10" step="10" class="form-control" placeholder="Enter Amount"
+                  id="input-approve">
+                <div class="input-group-append">
+                  <div class="st-container">
+                    <span><button class="main__plan-btn" onclick="approveBUSD()">APPROVE</button></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ---------------- -->
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">
+                      <font color="black">There is $5 minimum</font>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="input-group">
+                <input type="number" min="10" step="10" class="form-control" placeholder="Enter Amount" id="input-busd">
+                <div class="input-group-append">
+                  <div class="st-container">
+                    <span><button class="main__plan-btn" onclick="SetMaxBUSD()">MAX</button></span>
+                  </div>
+                  <div class="st-container">
+                    <span><button class="main__plan-btn" onclick="stakeM()">USE</button></span>
+                  </div>
+                </div>
+              </div>
+
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">
+                      <font color="black">Wallet Balance: <span id="user-BUSD-balance-1">...</span> BUSD</font>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+
+            </div>
+          </div>
+          <div class="main__plan-item">
+            <div class="main__body-plan">
+              <h2 class="main__plan-title-p">
+                STAKE BMT
+                <span>Stake BMT to earn BMT</span>
+                <span>You can stake as many times as you want</span>
+                <span>You can unstake this BMT after 7 days</span>
+              </h2><br>
+
+
+              <div class="info__plan-box">
+                <div class="main__plan-txt" id="APY_T">
+                  APR<span>...</span>
+                </div>
+                <div class="main__plan-txt" id="user-token-staked">
+                  My Stake<span>...</span>
+                </div>
+                <div class="main__plan-txt" id="total-token-staked">
+                  Total Staked<span>...</span>
+                </div>
+              </div><br><br><br><br><br>
+
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="Left">
+                      <div class="main__total-number-i" id="time-tounstake"></div>
+                    </td>
+                    <td align="right"><button class="main__unstake-btn" id="unstake">UNSTAKE</button></td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="left">
+                      <div class="main__plan-txt">BMT Earned</div>
+                    </td>
+                    <td rowspan="2" align="right" valign="middle"><button class="main__claim-btn"
+                        id="claimT">HARVEST</button></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="main__plan-txt"><span id="user-unClaimed-T">0.00</span></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">
+                      <font color="black">There is no minimum to stake</font>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="input-group">
+                <input type="number" min="10" step="10" class="form-control" placeholder="Enter Amount" id="input-2">
+                <div class="input-group-append">
+                  <div class="st-container">
+                    <span><button class="main__plan-btn" onclick="SetMaxBUSDMachine()">MAX</button></span>
+                  </div>
+                  <div class="st-container">
+                    <span><button class="main__plan-btn" onclick="stakeT('#input-2')">STAKE</button></span>
+                  </div>
+                </div>
+              </div>
+
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">
+                      <font color="black">Wallet Balance: <span id="user-token-balance-1">...</span> BMT</font>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="main__plan-item">
+            <div class="main__body-plan">
+              <h2 class="main__plan-title-s">
+                SELL BMT
+                <span>Sell the earned tokens</span>
+                <span>Limited tokens can be sold per day</span>
+                <span>Earn BUSD</span>
+              </h2><br>
+
+
+              <div class="info__plan-box">
+                <div class="main__plan-txt" id="total-sold-today">
+                  Sold Today<span>...</span>
+                </div>
+                <div class="main__plan-txt" id="available-to-sell">
+                  Available Today<span>...</span>
+                </div>
+                <div class="main__plan-txt" id="time-tonextday">
+                  Reset in<span>...</span>
+                </div>
+              </div><br><br><br><br><br><br>
+
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">
+                      <div class="main__total-txt">BMT PRICE</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <div class="main__total-number" id="token-price">0.00</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center">
+                      <div class="main__total-number-i" id="">BUSD</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table><br>
+
+              <div class="main__plan-txt">
+                You will get<h3 id="sell-calc">0.00 BUSD</h3>
+              </div>
+
+              <div class="input-group">
+                <input type="number" min="10" step="10" class="form-control" placeholder="Enter Amount" id="input-3">
+                <div class="input-group-append">
+                  <div class="st-container">
+                    <span><button class="main__plan-btn" onclick="SetMaxBUSDMachineToSell()">MAX</button></span>
+                  </div>
+                  <div class="st-container">
+                    <span><button class="main__plan-btn" onclick="sell('#input-3')">SELL</button></span>
+                  </div>
+                </div>
+              </div>
+
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">
+                      <font color="black">Wallet Balance: <span id="user-token-balance-2">...</span> BMT</font>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="main__inner-body">
+          <div class="main__plan-item-i">
+            <div class="main__body-plan">
+
+             <div class="main__game">
+              <h2 class="main__game-title">Information</h2>
+              History Lesson<br>
+              BUSDMachine v1 was on fire, price and daily TVL was growing like the hulk. We however ran into a situation where we were minting tokens
+              more quickly than we could sell them. This situation is ongoing currently. A vote was had in the channel on what to do. Users voted to keep BUSDMachine v1
+              intact and "Ride or Die" it out but to also launch a new BUSDMachine that fixes the flaws<br>
+              Features added: <br>
+                - Configurable Min investment (to stop that sneaky airdrop issue)<br>
+                - Configurable Daily Sell Limit (to stop us not being able to sell quick enough)<br>
+                - Configurable APRs incase we need to do something here<br>
+              <b>BMT Token - 0x496f090C20D3353Ff1B0FB93e1A583c14254bb5B</b> <br>
+              Launch Date <br>
+                - YouTubers and influencers will be allocated 100 BMT tokens each to record marketing content. <br>
+                - YouTubers and influencers will giveaway a total of 5000 BMT tokens prior to launch for receivers to stake as early access. <br>
+                - BUSD can be used from Thursday, January 28, 2022 13:00:00 PM GMT <br><br>
+              
+              <b>The value of BMT will rise as more users invest BUSD.</b><br><br>
+
+              1. Enter BUSD into the machine and earn daily staking rewards in BMT tokens (2% per day). You can
+              claim your BMT rewards at anytime. You cannot unstake your BUSD tokens.<br>
+              1.1. You will earn BMT tokens as a percentage of BUSD invested irrespective of the BUSDMacine Price<br>
+              1.2. i.e. If you invest 100 BUSD you will receive 2 BMT per day
+              2. You have two options with your BMT tokens, you can sell them for BUSD, or you can stake them to
+              earn more BMT tokens (4% per day). BMT staking is locked for 7 days <br>
+              3. Terminology <br>
+              3.1. Total Supply : The maximum amount of BMT that can exist <br>
+              3.2. Circulating Supply : The amount of BMT tokens that are currently in wallets <br>
+              3.3. Available Suppy : (Total Supply - Cirulating Supply) <br>
+              3.4. BMT Price : (Total BUSD Balance / Available Supply) <br>
+              4. Mint BMT - As you claim BMT from minting, it is removed from the Available Supply and
+              added to the Circulating Supply <br>
+              5. Sell BMT - As you sell BMT, it is removed from the Circulating Supply and added to the
+              Available Supply <br>
+              ------- <br>
+              Always DYOR! <br>
+              As this is the first one of these that we are deploying, there is always a risk of the uncertain <br>
+              Only use funds you can afford to lose <br>
+            </div> <br>
+            <div class="main__referral-link">
+
+              <div class="main__referral-header">
+                <label class="main__referral-label">
+                  Your Referral Link
+                  <input type="text" class="main__referral-input" value="..." id="ref-link">
+                </label>
+
+                <button class=" main__referral-btn" onclick="copyToClipboard('#ref-link')">Copy</button>
+              </div>
+
+              <div class="main__referral-body">
+
+                <div class="main__referral-col">
+                  <div class="main__referral-txt">
+                    Referral Earned Available
+                    <div class="main__referral-perc" id="referral-available">...</div>
+                  </div>
+
+                  <div class="main__referral-txt">
+                    Total Referral Earned
+                    <div class="main__referral-perc" id="referral-earned">...</div>
+                  </div>
+
+                  <div class="main__referral-txt">
+                    Total Referral Withdrawn
+                    <div class="main__referral-perc" id="referral-withdrawn">...</div>
+                  </div>
+
+                  <div class="main__referral-txt">
+                    Total Referrals
+                    <div class="main__referral-perc" id="total-referrals">...</div>
+                  </div>
+                </div>
+
+
+                <div class="main__referral-col">
+                  <div class="main__referral-txt">
+                    Earn BUSD for promotion <br><br>
+
+                    You will receive:<br><br>
+
+                    3% from each level 1 referral deposits<br>
+                    2% from each level 2 referral deposits<br>
+                    1% from each level 3 referral deposits<br><br>
+
+                    Note! You need to have at least 1 deposit<br>
+                    to start receive earnings<br>
+                  </div>
+                </div>
+              </div><br><br><br>
+              <table width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center"><button class="main__wref-btn" id="withdraw-referral-btn">Withdraw Referral
+                        Earnings</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+          </div>
+          <div class="main__footer-stake" id="user-deposits">
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <div class="footer">
+
+    <div class="container">
+      <div class="footer__inner">
+        <table width="100%" border="0">
+          <tbody>
+            <tr>
+              <td align="center"><img class="main__sponsors-img" src="assets_main_fy/img/busdmachine_banner.png"
+                  alt="Sponsors"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="preloader"><br><br>
+    <table width="100%" height="100%" border="1">
+      <tbody>
+        <tr>
+          <td align="center" valign="middle">
+            <img width="100px" height="100px" src="assets_main_fy/img/busdmachine_icon.png" alt="">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+  <script src="./jquery.min.js"></script>
+  <script src="./scmain.js"></script>
+  <script src="./web3.min.js"></script>
+  <script src="./index_202201191456.js"></script>
+  <script src="./sciziToast.min.js"></script>
+  <script src="./bootstrap.bundle.min.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
