@@ -1,1 +1,5 @@
-{  "name" : "World Factory Ticket2",  "description" : "Your ticket for our Company. Link to our minting site https://worldfactory.one",  "external_url": "https://worldfactory.one",  "image" : "ipfs://bafybeia6awhphnuas6ikhagerlph4p3xffi2hnjsmhxsesa6a5vk7q7uxy/2.png"}
+{
+  "name": "Sneaky Kitty #1",
+  "description": "A very sneaky kitty",
+  "image": "ipfs://QmTRJHU5YPMcrFMgSAUeVhQ5treABepyCkKvQfs91mL1Du/hidden.png"
+}
