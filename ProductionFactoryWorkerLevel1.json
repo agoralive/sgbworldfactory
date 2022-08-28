@@ -1,1 +1,5 @@
-{  "name" : "World Factory - Production Worker Level 1",  "description" : "Object #99 in our game",  "image" : "https://agoralive.github.io/sgbworldfactory/productionFactoryWorkerLevel1.png"}
+{  
+  "name" : "World Factory - Production Worker Level 1",  
+  "description" : "Your production worker will work and earn in-game tokens or he can be merged into higher a higher level worker which will earn you higher rewards",  
+  "image" : "https://agoralive.github.io/sgbworldfactory/productionFactoryWorkerLevel1.png"
+}
