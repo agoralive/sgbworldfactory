@@ -1,5 +1,15 @@
-{  
-  "name" : "World Factory - Production Factory Level 1",  
+{
+  "name" : "World Factory - Production Factory Level 1",
+  "image" : "https://agoralive.github.io/sgbworldfactory/productionFactoryLevel1.png",
+  "attributes": [
+    {
+      "trait_type": "Object Type",
+      "value": "Production Factory"
+    },
+    {
+      "trait_type": "Production Factory",
+      "value": "Level 1"
+    }
+  ],
   "description" : "Your production factory will earn in-game tokens or he can be merged into higher a higher level which will earn you higher rewards",  
-  "image" : "https://agoralive.github.io/sgbworldfactory/productionFactoryLevel1.png"
 }
