@@ -3,12 +3,12 @@
   "image" : "https://agoralive.github.io/sgbworldfactory/productionFactoryLevel1.png",
   "attributes": [
     {
-      "trait_type": "Object Type",
-      "value": "Production Factory"
-    },
-    {
       "trait_type": "Production Factory",
       "value": "Level 1"
+    },
+    {
+      "trait_type": "Unknown",
+      "value": "Unknown"
     }
   ],
   "description" : "Description is being updated..."
