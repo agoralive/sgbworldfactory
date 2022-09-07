@@ -4,7 +4,32 @@
   "image" : "ipfs://bafybeia6awhphnuas6ikhagerlph4p3xffi2hnjsmhxsesa6a5vk7q7uxy/2.png",
   "attributes": [
     {
-      "trait_type": "Production Factory",
-      "value": "Level 1"
+      "trait_type": "Backgrounds",
+      "value": "MakeItRain"
+    },
+    {
+      "trait_type": "Skins",
+      "value": "Jaguar"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "None"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Nerd"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Rainbow rose"
+    },
+    {
+      "trait_type": "Hats",
+      "value": "None"
     }
+  ]
 }
