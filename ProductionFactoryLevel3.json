@@ -1,0 +1,15 @@
+{
+  "name" : "World Factory - Production Factory Level 3",
+  "image" : "https://agoralive.github.io/sgbworldfactory/productionFactoryLevel1.png",
+  "attributes": [
+    {
+      "trait_type": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Production Factory",
+      "value": "Level 3"
+    }
+  ],
+  "description" : "Description is being updated..."
+}
