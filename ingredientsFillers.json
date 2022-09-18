@@ -1,0 +1,15 @@
+{
+  "name" : "World Factory - Ingredients ingredientsFillers",
+  "image" : "https://agoralive.github.io/sgbworldfactory/ingredientsFillers.png",
+  "attributes": [
+    {
+      "trait_type": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Ingredients",
+      "value": "Fillers"
+    }
+  ],
+  "description" : "Description is being updated..."
+}
