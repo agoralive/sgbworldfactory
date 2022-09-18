@@ -1,0 +1,15 @@
+{
+  "name" : "World Factory - Ingredients Natural Rubber",
+  "image" : "https://agoralive.github.io/sgbworldfactory/ingredientsNaturalRubber.png",
+  "attributes": [
+    {
+      "trait_type": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Ingredients",
+      "value": "Natural Rubber"
+    }
+  ],
+  "description" : "Description is being updated..."
+}
