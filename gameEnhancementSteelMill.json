@@ -1,0 +1,15 @@
+{
+  "name" : "World Factory - Game Enhancement Steel Mill",
+  "image" : "https://agoralive.github.io/sgbworldfactory/gameEnhancementSteelMill.png",
+  "attributes": [
+    {
+      "trait_type": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Game Enhancements",
+      "value": "Steel Mill"
+    }
+  ],
+  "description" : "Description is being updated..."
+}
