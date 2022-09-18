@@ -1,0 +1,15 @@
+{
+  "name" : "World Factory - Game Enhancements Rubber Plantation",
+  "image" : "https://agoralive.github.io/sgbworldfactory/gameEnhancementRubberPlantation.png",
+  "attributes": [
+    {
+      "trait_type": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Game Enhancements",
+      "value": "Rubber Plantation"
+    }
+  ],
+  "description" : "Description is being updated..."
+}
