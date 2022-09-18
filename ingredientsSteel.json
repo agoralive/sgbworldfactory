@@ -1,0 +1,15 @@
+{
+  "name" : "World Factory - Ingredients Steel",
+  "image" : "https://agoralive.github.io/sgbworldfactory/ingredientsSteel.png",
+  "attributes": [
+    {
+      "trait_type": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Ingredients",
+      "value": "Steel"
+    }
+  ],
+  "description" : "Description is being updated..."
+}
