@@ -1,0 +1,15 @@
+{
+  "name" : "World Factory - Ingredients Synthetic Polymers",
+  "image" : "https://agoralive.github.io/sgbworldfactory/ingredientsSyntheticPolymers.png",
+  "attributes": [
+    {
+      "trait_type": "Unknown",
+      "value": "Unknown"
+    },
+    {
+      "trait_type": "Ingredients",
+      "value": "Synthetic Polymers"
+    }
+  ],
+  "description" : "Description is being updated..."
+}
